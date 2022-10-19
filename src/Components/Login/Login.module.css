@@ -1,0 +1,70 @@
+/* * {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-family: "Roboto", sans-serif
+  }
+   */
+  body {
+    margin:  0rem;
+  }
+  
+  .box {
+    
+     margin-left: 30rem;
+     margin-right: 30rem;
+  }
+  
+  
+  
+  form {
+    /* display: inline-block; */
+    background: #7ab9bb;
+    border: 1px solid rgb(244, 149, 7);
+    border-radius: 2px;
+    padding: 2rem;
+    margin:1rem;
+    
+    
+  }
+  
+  form label {
+    float: left;
+    font-size: .9rem;
+    margin: 0;
+    padding: 0
+  }
+  
+  
+  
+  input {
+    width: 15rem;
+    padding: .3rem;
+    border-radius: 5px;
+    outline: none;
+    border: 1px solid rgb(232, 104, 6)
+  }
+  
+  .sub_btn  {
+    margin-left: 1rem;
+    width: 30%;
+    padding: .3rem;
+    border: none;
+    background: #222;
+    color: rgb(246, 251, 252);
+    border-radius: 3px;
+    
+  }
+  
+  .sub_btn:hover {
+    background: rgb(230, 157, 11);
+    transition: all .5s
+  }
+  
+    .loader{
+      margin-left:45%;
+      margin-top: 30%;
+    
+    }
+  
+  

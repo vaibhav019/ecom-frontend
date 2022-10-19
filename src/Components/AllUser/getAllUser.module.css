@@ -1,0 +1,143 @@
+.out_put_container >button{
+    color: white;
+    border: none;
+    margin-top: 2%;
+    border-radius: 10px;
+    background-color: rgb(48, 96, 48);
+    padding-left: 5px;
+    padding-right: 5px;
+   
+}
+
+.out_put_container >span{
+    margin-left: 20px;
+    color: black;
+    font-weight: bold;
+}
+
+.output_tbl{
+ 
+    margin-top: 10%;
+    width: 80%;
+    height:  50vh;
+    overflow-y: auto;
+    overflow-x: auto;
+    margin-left:10%
+  
+}
+.tbl_contnt{
+    border: black 0.5px solid;
+}
+.tbl_contnt >thead >tr >th{
+    border: black 0.5px solid;
+   padding: 0;
+   text-transform:none;
+   color: black;
+}
+.tbl_contnt >tbody >tr >td{
+    padding: 0;
+    color: black;
+    border: black 0.5px solid;
+    text-align: center;
+    font-size: 0.75rem;
+}
+ 
+
+.tbl_contnt >thead {
+    position: sticky;
+    top: 1px;
+    background-color: rgb(211, 157, 96);
+   
+ 
+}
+
+.tbl_contnt >thead >tr >th{
+    color: black;
+    font-weight: bolder;
+font-family: sans-serif;
+    text-align: center;
+    padding: 3px;
+}
+@media screen and (max-width: 700px)  {
+.out_put_container{
+    margin-left: -18%;
+   
+}
+.output_tbl{
+ 
+    margin-top: 1%;
+    width: 95%;
+    height:  50vh;
+    /* overflow-y: auto;
+    overflow-x: auto; */
+  
+}
+.tbl_contnt >thead >tr >th{
+    border: black 0.5px solid;
+   padding: 0;
+   text-transform:none;
+   color: black;
+   font-size: 0.65rem;
+}
+.tbl_contnt >tbody >tr >td{
+    padding: 0;
+    color: black;
+    border: black 0.5px solid;
+    text-align: center;
+    font-size: 0.55rem;
+   
+}
+/* .Tid ,.store{
+    width:.2rem;
+    word-break:break-all;
+} */
+
+
+}
+@media screen and (max-width: 394px)  {
+    .out_put_container{
+        margin-left: -18%;
+      
+       
+    }
+    .output_tbl{
+     
+        margin-top: 1%;
+        width: 96%;
+        height:  50vh;
+        /* overflow-y: auto;
+        overflow-x: auto; */
+      
+    }
+    .tbl_contnt >thead >tr >th{
+        border: black 0.5px solid;
+       padding: 0;
+       text-transform:none;
+       color: black;
+       font-size: 0.55rem;
+    }
+    .tbl_contnt >tbody >tr >td{
+        padding: 0;
+        color: black;
+        border: black 0.5px solid;
+        text-align: center;
+        font-size: 0.45rem;
+       
+    }
+    .Tid ,.store{
+        /* width:1rem; */
+        word-break:break-all;
+    }
+    .status{
+     padding-left: 0%;
+     padding-right: 0%;
+     /* width: 1rem; */
+    }
+    
+    
+}
+/* @media screen and (max-width: 286px)  {
+    .output_tbl{
+        width: 105%;
+    }
+} */
